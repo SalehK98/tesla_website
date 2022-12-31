@@ -1,0 +1,150 @@
+/* @import url("https://fonts.cdnfonts.com/css/gotham-ssm"); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Gotham SSm, sans-serif;
+  /* font-size: 14px; */
+  font-weight: 400;
+  line-height: 20px;
+}
+
+main_body {
+  max-width: 100px;
+  position: relative;
+}
+
+/* Add */
+
+#add {
+  position: fixed;
+  max-width: inherit;
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  overflow: auto;
+  background-color: #fff;
+  color: #393c41;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+#add span a {
+  text-decoration: none;
+  color: #393c41;
+  box-shadow: 0 1px 0 #393c41;
+  transition: box-shadow 1s cubic-bezier(0, 0, 1, 0.99);
+  cursor: pointer;
+}
+
+#add span a:hover {
+  color: #171a20;
+  box-shadow: 0 5px #171a20;
+}
+
+#add span a::after {
+  box-shadow: 0 1px 0 #393c41;
+}
+
+/* Model 3 */
+
+#model_3 {
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD)
+    no-repeat center center/cover;
+  overflow-y: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  margin-top: 70px;
+  z-index: 999999;
+  /* position: sticky; */
+}
+
+header nav #logo {
+  float: left;
+  padding: 0 50px 0;
+}
+
+header nav #external_nav {
+  float: right;
+  width: 70%;
+}
+
+header nav #external_nav #main_nav {
+  float: left;
+}
+
+header nav #external_nav #left_nav {
+  float: right;
+  width: 29%;
+}
+
+header nav #external_nav #left_nav ul {
+  padding-bottom: 20px;
+}
+
+header nav #external_nav #main_nav ul li,
+header nav #external_nav #left_nav ul li {
+  display: inline;
+  padding: 0 0 0 0px;
+  text-align: center;
+  height: 33px;
+  width: 100px;
+}
+
+header nav #external_nav #main_nav ul li a,
+header nav #external_nav #left_nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 13px;
+  transition: all 500ms ease-out;
+}
+
+header nav #external_nav #left_nav ul #menu_btn {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  height: 33px;
+  width: 91px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 500ms ease-in;
+}
+
+header nav #external_nav #main_nav ul li a:hover,
+header nav #external_nav #left_nav ul li a:hover,
+header nav #external_nav #left_nav ul #menu_btn:hover {
+  /* border: 1px solid #2f3842; */
+  border-radius: 5px;
+  background-color: #2f3842;
+}
+
+#safety {
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/ea753653-02a2-4206-aac5-82a33a0a245d/bvlatuR/std/2880x1800/model-3-hero-a-desktop)
+    no-repeat center center/cover;
+  height: 100vh;
+}
+
+#chat,
+#side_bar {
+  position: fixed;
+  z-index: 999999;
+  background-color: black;
+}
+
+#side_bar {
+  top: 245px;
+  left: 13px;
+}
+
+#chat {
+  top: 608px;
+  left: 1428px;
+}
